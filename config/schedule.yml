@@ -1,0 +1,4 @@
+update_index:
+  cron: "30 23 * * * UTC"
+  class: "ScheduleChewyUpdateWorker"
+  queue: chewy
